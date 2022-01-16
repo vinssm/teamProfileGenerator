@@ -1,0 +1,93 @@
+:root {
+  --primary: #9dbdc6;
+  --secondary: #daeaef;
+  --tertiary: #ff3d2e;
+  --light: #ffffff;
+  --white: #d4d4d4;
+  --dark: #272f32;
+  --black: #000000;
+  --border-radius: 0.5rem;
+  --spacing-one: calc(1rem * 0.25);
+  --spacing-two: calc(1rem * 0.5);
+  --spacing-three: 1rem;
+  --spacing-four: calc(1rem * 1.5);
+  --spacing-five: calc(1rem * 3);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-weight: 500;
+  margin: 5px 0;
+  color: var(--white);
+  line-height: 1.25;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+  margin: 5px 0;
+  color: var(--dark);
+  line-height: 1.25;
+}
+
+body {
+  background-color: var(--secondary);
+  margin: 0;
+  padding: 0;
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 300;
+  color: var(--tertiary);
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+
+.card-two {
+    background-color: var(--tertiary);
+    color: var(--dark);
+  }
+  
+  .card-one {
+    display: block;
+  }
+
+  .card-three {
+    color: var(--black);
+    text-align: center;
+    padding-left: 10px;
+    margin-left: 10px;  
+  }
+  
+  .card-four {
+    margin: 0 0 20px 0;
+    border: 3px solid var(--dark);
+    border-radius: var(--border-radius);
+    text-align: center;
+  }
+
+  
+  .card-body {
+    display: flex;;
+    background-color: var(--tertiary);
+  }
+  
+  .list-group-item {
+    color: var(--dark);
+    text-decoration: none;
+  }
+
+  .my-3 {
+    margin-top: var(--spacing-three);
+    margin-bottom: var(--spacing-three);
+  }
+  
+  .mr-2 {
+    margin-right: var(--spacing-two);
+  }
+  

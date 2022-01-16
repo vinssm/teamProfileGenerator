@@ -1,0 +1,27 @@
+{
+  "name": "teamprofilegenerator",
+  "version": "1.0.0",
+  "description": "This App is all about constructing a team via node.js and test them via jest frame work ",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinssm/teamProfileGenerator.git"
+  },
+  "author": "Vinay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinssm/teamProfileGenerator/issues"
+  },
+  "homepage": "https://github.com/vinssm/teamProfileGenerator#readme",
+  "dependencies": {
+    "chalk": "^5.0.0",
+    "inquirer": "^8.2.0",
+    "jest": "^27.4.7"
+  }
+}
